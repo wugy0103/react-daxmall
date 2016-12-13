@@ -1,6 +1,6 @@
 {
-  "name": "react-cnode",
-  "version": "1.0.1",
+  "name": "react-daxmall",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lzxb/react-cnode.git"
+    "url": "git+https://github.com/wugy0103/react-daxmall.git"
   },
-  "author": "",
+  "author": "wuguoyuan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lzxb/react-cnode/issues"
+    "url": "https://github.com/wugy0103/react-daxmall.git/issues"
   },
-  "homepage": "https://github.com/lzxb/react-cnode#readme",
+  "homepage": "https://github.com/wugy0103/react-daxmall.git#readme",
   "dependencies": {
     "flex.css": "1.0.1",
     "get-next-page": "1.0.0",

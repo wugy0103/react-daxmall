@@ -8,6 +8,7 @@ import MyMessages from '../Component/MyMessages'; //我的消息
 import UserView from '../Component/UserView'; //我的个人中心
 import Signin from '../Component/Signin'; //登录
 import Signout from '../Component/Signout'; //退出
+import Feedback from '../Component/UserHome/Feedback'; //意见反馈
 
 /**
  * (路由根目录组件，显示当前符合条件的组件)
@@ -33,6 +34,7 @@ const RouteConfig = (
             <Route path="user/:loginname" component={UserView} />
             <Route path="signin" component={Signin} />
             <Route path="signout" component={Signout} />
+            <Route path="userhome/feedback" component={Feedback} />
         </Route>
     </Router>
 );

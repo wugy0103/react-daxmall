@@ -1,7 +1,6 @@
-//out: null
 @style-bg: #eee;
-@style-main : #80bd01;
-@style-color: #2c3e50;
+@style-main : #23ac38;
+@style-color: #4C4C4C;
 body, ul, li, a, p, h2, h3, textarea, button, input, select {
     padding: 0;
     margin: 0;
@@ -18,8 +17,18 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+body{
+    background-color: @style-bg;
+}
 
-
+.layout {
+    width: 100%;
+    max-width: 768px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: @style-bg;
+    overflow: hidden;
+}
 /*
     首页分类
 */

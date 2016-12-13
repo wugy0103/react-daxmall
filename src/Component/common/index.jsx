@@ -155,6 +155,11 @@ class FooterInit extends Component {
                             <i className="iconfont icon-wode"></i>我的
                         </Link>
                     </li>
+                    <li className={arr[4]}>
+                        <Link to="userhome/feedback">
+                            <i className="iconfont icon-fabu"></i>反馈
+                        </Link>
+                    </li>
                 </ul>
             </footer>
         );

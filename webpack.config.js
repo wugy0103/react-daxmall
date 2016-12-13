@@ -13,8 +13,8 @@ if (process.argv.indexOf('-p') > -1) { //生产环境
             NODE_ENV: JSON.stringify('"production"')
         }
     }));
-    publicPath = '/react-cnode/dist/';
-    path = __dirname + '/react-cnode/dist/';
+    publicPath = '/dist/';
+    path = __dirname + '/dist/';
 }
 plugins.push(new ExtractTextPlugin('[name].css')); //css单独打包
 

@@ -1,5 +1,5 @@
 var webpack = require('webpack');
-var WebpackDevServer = require('webpack-dev-server');
+var WebpackDevServer = require('webpack-dev-server');//webpack-dev-server是一个小型的Node.js Express服务器
 var config = require('./webpack.config');
 
 // 相当于通过本地node服务代理请求到了http://cnodejs.org/api
@@ -23,4 +23,4 @@ server.app.get('*', function (req, res) {
     res.sendFile(__dirname + '/index.html')
 });
 
-server.listen(3000);
+server.listen(8088);
