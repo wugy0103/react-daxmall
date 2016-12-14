@@ -51,7 +51,7 @@ class Main extends Component {
                         <button className="btn" onClick={this.signin}>{this.state.button}</button>
                     </div>
                 </div>
-                
+                <Footer index="4" />
 
             </div>
         );

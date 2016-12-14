@@ -133,33 +133,56 @@ class FooterInit extends Component {
         arr[this.props.index] = 'on';
         return (
             <footer className="common-footer">
-                <div className="zhanwei"></div>
                 <ul className="menu" data-flex="box:mean">
                     <li className={arr[0]}>
                         <Link to="/">
-                            <i className="iconfont icon-shouye"></i>首页
+                            <i className="iconfont icon-shouye_shouye"></i>首页
                         </Link>
                     </li>
                     <li className={arr[1]}>
                         <Link to="/topic/create">
-                            <i className="iconfont icon-fabu"></i>发表
+                            <i className="iconfont icon-fenlei"></i>分类
                         </Link>
                     </li>
                     <li className={arr[2]}>
-                        <Link to="/my/messages">
-                            <i className="iconfont icon-xiaoxi"></i>消息{this.state.messageCount > 0 ? <em>{this.state.messageCount}</em> : ''}
+                        <Link to={myUrl}>
+                            <i className="iconfont icon-gouwuche"></i>购物车
                         </Link>
                     </li>
                     <li className={arr[3]}>
-                        <Link to={myUrl}>
-                            <i className="iconfont icon-wode"></i>我的
+                        <Link to="/userhome/feedback">
+                            <i className="iconfont icon-wo"></i>我的
                         </Link>
                     </li>
-                    <li className={arr[4]}>
-                        <Link to="userhome/feedback">
-                            <i className="iconfont icon-fabu"></i>反馈
-                        </Link>
-                    </li>
+                    {
+
+                        //<li className={arr[4]}>
+                        //    <Link to="/userhome/feedback">
+                        //        <i className="iconfont icon-wo"></i>反馈
+                        //    </Link>
+                        //</li>
+                        //<li className={arr[0]}>
+                        //    <Link to="/">
+                        //        <i className="iconfont icon-shouye_shouye"></i>首页
+                        //    </Link>
+                        //</li>
+                        //<li className={arr[1]}>
+                        //    <Link to="/topic/create">
+                        //        <i className="iconfont icon-fenlei"></i>发表
+                        //    </Link>
+                        //</li>
+                        //<li className={arr[2]}>
+                        //    <Link to="/my/messages">
+                        //        <i className="iconfont icon-xiaoxi"></i>消息{this.state.messageCount > 0 ? <em>{this.state.messageCount}</em> : ''}
+                        //    </Link>
+                        //</li>
+                        //<li className={arr[3]}>
+                        //    <Link to={myUrl}>
+                        //        <i className="iconfont icon-wode"></i>我的
+                        //    </Link>
+                        //</li>
+                    }
+
                 </ul>
             </footer>
         );
